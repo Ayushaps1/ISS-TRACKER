@@ -6,8 +6,8 @@ import time
 MY_LAT = 23.264600476435948 # Your latitude
 MY_LONG = 77.4623531945207 # Your longitude
 UTC_OFFSET = 5
-MY_EMAIL = "dualemail147@gmail.com"
-MY_PASSWORD = "dual1413email"
+MY_EMAIL = "youremail@gmail.com" #Your email this email is not gonna work
+MY_PASSWORD = "youremailpassword"  #and Your emails password
 
 # function to convert UTC Hour to IST Hour
 def utc_to_local(utc_hour):
@@ -63,7 +63,7 @@ while True:
             connection.login(user=MY_EMAIL, password=MY_PASSWORD)
             connection.sendmail(
                 from_addr=MY_EMAIL,
-                to_addrs="rcena543@gmail.com",
+                to_addrs="againyouremail@gmail.com",
                 msg="Subject:ISS ALERT\n\nISS is up above you go and look."
             )
 
